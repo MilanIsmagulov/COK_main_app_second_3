@@ -1,0 +1,99 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+
+.one_two_one_img{
+    max-width: 400px;
+}
+
+.one_three_one_img{
+    max-height: 550px;
+    object-fit: contain;
+}
+.plane_text p:has(.one_three_one_tb){
+    overflow-x: scroll;
+}
+.one_three_one_tb{
+    border-collapse: collapse;
+    border: 0;
+    border-bottom: 5px #44546a;
+}
+.one_three_one_tb th{
+    text-align: center;
+}
+
+.blue_header{
+    color: #0070c0 !important;
+}
+.one_four_one_img{
+    width: 100% !important;
+}
+.five_nine_blue_list_first_p{
+    width: 100%;
+    margin-left: 25px !important;
+    padding-left: 25px;
+}
+.one_five_one_img{
+    width: 80% !important;
+}
+.one_five_one_tb td{
+    width: 25%;
+}
+.only_img:has(.one_four_one_img) p{
+    margin-top: -50px;
+}
+.one_three_one_tb td{
+    width: 50%;
+    padding: 15px;
+}
+.one_three_one_tb td:first-child{
+    background-color: #eaeff7;
+}
+.one_three_one_tb th{
+    padding: 25px;
+    background-color: #44546a;
+    color: #fff;
+}
+
+.five_nine_blue_list_text_content p{
+    width: 80%;
+    margin-left:15px !important;
+}
+.one_eleven_three_img{
+    max-width: 540px;
+}
+.five_nine_blue_list_text_content img{
+    margin: 0 auto;
+    margin-left: 15px;
+}
+.one_ten_one_img{
+    margin-top: 15px;
+    width: 70% !important;
+}
+.pink_subtitle{
+    margin: 0;
+    margin-bottom: -25px !important;
+}
+.one_eleven_one_img{
+    width: 70% !important;
+    margin: 0 auto;
+    min-width: initial !important;
+}
+.one_eleven_two_img{
+    width: 60% !important;
+}
+.img_with_sgn:has(.one_eleven_one_img){
+    max-width: 500px !important;
+}
+@media(max-width: 855px){
+    .one_five_one_img, .one_ten_one_img,.one_eleven_two_img,.one_eleven_one_img{
+        width: 95% !important;
+    }
+    .five_nine_blue_list_text_content{
+        flex-direction: column;
+    }
+    .five_nine_blue_list_text_content p{
+        width: 95%;
+    }
+    .five_nine_blue_list_text_content img{
+        margin-bottom: 25px;
+    }
+}
