@@ -137,15 +137,15 @@ window.dataLoaded = false;
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="font-weight: bold; padding: 5px; background-color: #3F5161;">Устойчивые породы</td>
+                                <td style="font-weight: bold; padding: 5px; background-color: #eaeff7;">Устойчивые породы</td>
                                 <td style="padding: 5px;">8-10 см<sup>3</sup> за 30 минут</td>
                             </tr>
                             <tr>
-                                <td style="font-weight: bold; padding: 5px;">Неустойчивые породы</td>
+                                <td style="font-weight: bold; padding: 5px; background-color: #eaeff7;">Неустойчивые породы</td>
                                 <td style="padding: 5px;">8 см<sup>3</sup> за 30 минут</td>
                             </tr>
                             <tr>
-                                <td style="font-weight: bold; padding: 5px;">Продуктивные пласты</td>
+                                <td style="font-weight: bold; padding: 5px; background-color: #eaeff7;">Продуктивные пласты</td>
                                 <td style="padding: 5px;">3-6 см<sup>3</sup> за 30 минут</td>
                             </tr>
                         </tbody>
