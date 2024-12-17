@@ -18,12 +18,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.text2:has(.sixteen_page_table){
+    overflow-x: scroll;
+}
 .table_element_custom b{
     display: flex;
     width: 70%;
 }
-
+.one_four_eleven_one_img{
+    min-width: 200px !important;
+    width: 40vw !important;
+    max-width: 600px !important;
+}
 .table_element_custom{
     display: flex;
     flex-direction: column;
@@ -37,7 +43,94 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: 3px solid rgba(191, 235, 221, 1);
 }
-
+.one_four_eleven_one_fifa_img{
+    width: 100%;
+    min-width: 400px;
+    max-width: 1000px !important;
+}
+.fouteeen_wrapper_custom{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+    justify-content: left;
+    margin-bottom: 0 !important;
+}
+.iksweb2{
+    border-collapse: collapse;
+}
+.iksweb2 select{
+    width: 100%;
+}
+.iksweb2 tr td{
+    border-bottom: 1px solid;
+    padding-left: 5px;
+}
+.iksweb2 tr td:first-child{
+    background-color: #d6dce5;
+}
+.iksweb2 th:first-child{
+    text-align: left;
+}
+#dynamic-content:has(.iksweb2){
+    justify-content: center;
+}
+.iksweb2 th{
+    border-bottom: 2px solid;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 5px;
+    background-color: #44546a;
+    color: #fff;
+}
+.iksweb2 td:last-child{
+    text-align: center;
+    
+}
+.fouteeen_wrapper_custom:first-child{
+    border-top: 2px solid;
+}
+.fouteeen_wrapper_custom:last-child{
+    border-bottom: 2px solid;
+}
+.fouteeen_wrapper_custom span{
+    min-width: 70px;
+    margin-right: 25px;
+}
+.test_image_7{
+    max-width: 300px !important;
+}
+.one_four_eleven_one_fif_img{
+    min-width: 200px !important;
+    width: 40vw !important;
+    max-width:720px !important;
+}
+.main_wrapper:has(.test_image_7) .number{
+    width: 50px;
+    height: 50px;
+}
+.main_wrapper:has(.test_image_7) .item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main_wrapper:has(.test_image_11) .number{
+    width: 40px;
+    height: 40px;
+}
+.main_wrapper:has(.test_image_11) .item{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.main_wrapper:has(.test_image_13) .number{
+    width: 40px;
+    height: 40px;
+}
+.main_wrapper:has(.test_image_13) .item{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 .blue_table_element_custom{
     justify-content: flex-start;
     color: #fff;
