@@ -2,86 +2,108 @@ window.dataLoaded = false;
 let title_of_eom = themeOfDEC;
 const data = {
     "index_1":{
-        "subtitle": "subtitle 2 <p class='black_sub'>dgdgdgdgdfgdg</p>",
-        "step_of_popup": "step 2",
+        "subtitle": "Укажите средства индивидуальной защиты, применяемые во время работы с буровыми расстворами <b class='black_sub'>(Выберите несколько правильных ответов)</b>",
+        "step_of_popup": "Укажите средства индивидуальной защиты, применяемые во время работы с буровыми расстворами.",
         "test":[
             {"type": 1},
             {"answers": [
-                "First ",
-                "<img class='answer_image' src='./content/test_image.png' alt='sfsf'>",
-                "Third Answer",
-                "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores consequatur temporibus pariatur voluptatem eius ea asperiores, fugit est ducimus dolor possimus officiis reiciendis nesciunt perferendis facilis?</p><p class='math_equation'>$$\\def\\d{\\mathrm{d}}\\oint_C \\vec{B}\\circ \\d\\vec{l} = \\mu_0 \\left( I_{\\text{enc}} + \\varepsilon_0 \\frac{\\d}{\\d t} \\int_S {\\vec{E} \\circ \\hat{n}}\\; \\d a \\right)$$</p>"
+                "Костюм из смешанных тканей",
+                "Очки защитные",
+                "Перчатки с полимерным покрытием",
+                "Маска защитная",
+                "Каска защитная",
+                "Ботинки кожаные с жестким мыском",
             ]},
-            {"correct_answer": [1]},
-            {"image": true, "image_path": "./content/video/test_video.mp4"}
+            {"correct_answer": [0,1,2,4,5]},
+            {"image": false, "image_path": "./content/video/test_video.mp4"}
         ],
     },
     "index_2":{
-        "subtitle": "subtitle 3333",
-        "step_of_popup": "step 2",
+        "subtitle": "Какие функции должна выполнять промывочная жидкость в бурении для качественной проводки скважины. <b class='black_sub'>(Выберите несколько правильных ответов)</b>",
+        "step_of_popup": "Какие функции должна выполнять промывочная жидкость в бурении для качественной проводки скважины.",
         "test":[
             {"type": 1},
             {"answers": [
-                "First dfgdgdgdgdg Answer",
-                "Second ываыаыываываыаыа Answer",
-                "Third Answer",
-                "<img class='answer_image' src='./content/test_image.png' alt='sfsf'>",
-                "Harum ex inventore laborum officiis ipsa. Soluta voluptate consequuntur a ex est qui. Earum dignissimos exercitationem aperiam dolore veniam deserunt beatae, blanditiis vero ea natus illum ipsum aliquid asperiores ab vel architecto iure aliquam error iusto? Error illo earum laudantium facilis."
+                "Физико-химическая",
+                "Гидростатическая",
+                "Экономическая",
+                "Коркообразования",
+                "Гидродинамическая"
             ]},
-            {"correct_answer": [0, 1]},
-            {"image": true, "image_path": "./content/video/test_video.mp4"}
+            {"correct_answer": [0, 1, 3, 4]},
+            {"image": false, "image_path": "./content/video/test_video.mp4"}
         ],
     },
     "index_3":{
-        "subtitle": "subtitle 3333",
-        "step_of_popup": "step 2",
+        "subtitle": "Дайте определение понятию «Условная вязкость», выбрав один правильный ответ.",
+        "step_of_popup": "Дайте определение понятию «Условная вязкость», выбрав один правильный ответ.",
         "test":[
-            {"type": 2},
-            {"description": "<b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit. Recusandae dolores consequatur temporibus pariatur voluptatem eius ea asperiores, fugit est ducimus dolor possimus officiis reiciendis nesciunt perferendis facilis? Beatae ea culpa a modi! Harum ex inventore laborum officiis ipsa. Soluta voluptate consequuntur a ex est qui. Earum dignissimos exercitationem aperiam dolore veniam deserunt beatae, blanditiis vero ea natus illum ipsum aliquid asperiores ab vel architecto iure aliquam error iusto? "},
-            {"test_with_text": "{=Бубльгум, =Баблгам, =бубльгум, =баблгам}"},
-            {"image": true, "image_path": "./content/video/test_video.mp4"}
+            {"type": 1},
+            {"answers": [
+                "сила внутреннего трения в промывочной жидкости",
+                "время истечения 500 см<sup>3</sup> промывочной жидкости ",
+                "время истечения 700 см<sup>3</sup> промывочной жидкости"
+            ]},
+            {"correct_answer": [1]},
+            {"image": false, "image_path": "./content/video/test_video.mp4"}
         ],
     },
     "index_4":{
-        "subtitle": "subtitle 3333",
-        "step_of_popup": "step 2",
+        "subtitle": "Сопоставьте название прибора параметру бурового раствора для оценки его качества.",
+        "step_of_popup": "Сопоставьте название прибора параметру бурового раствора для оценки его качества.",
         "test":[
-            {"type": 2},
+            {"type": 9},
             {"description": "Тут пишем описание задания"},
-            {"test_with_text_2": "Россия {=священная} наша {=держава}. Россия {=священная} наша {=держава}. Россия {=священная} наша {=держава}.Россия {=священная} наша {=держава}.Россия {=священная} наша {=держава}"},
-            {"image": true, "image_path": "./content/video/test_video.mp4"}
+            {"definitions": [
+                "Ареометр",
+                "Вискозиметр",
+                "ВМ-6",
+                "СНС-2"
+            ]},
+            {"answers": [
+                "Показатель фильтрации (водоотдача)",
+                "Вязкость",
+                "Плотность",
+                "Статическое напряжение сдвига"
+            ]},
+            {"correct_answer_type_10": [3, 2, 1, 4]},
+            {"image": true, "image_path": "./content/empty_img.png", "image_sgn": "blablabla"}
         ],
     },
     "index_5":{
-        "subtitle": "subtitle 3333",
-        "step_of_popup": "step 2",
+        "subtitle": "Сопоставьте название прибора с его назначением.",
+        "step_of_popup": "Сопоставьте название прибора с его назначением.",
         "test":[
-            {"type": 3},
-            {"image": true, "image_path": "./content/video/test_video.mp4"},
+            {"type": 9},
+            {"description": "Тут пишем описание задания"},
+            {"definitions": [
+                "Ареометр",
+                "Гидроциклонный шламоотделитель",
+                "Газовый сепаратор",
+                "Вибросито",
+                "Вискозиметр полевой"
+            ]},
             {"answers": [
-                "First Answer",
-                "Second Answer",
-                "Third dfgdfgdg Answer",
-                "Thirdwqwqw Answer",
-                "Thirdhgghghh Answer",
-                "Four Answer"
-            ]}
+                "Очистка БР",
+                "Плотность БР",
+                "Очистка БР",
+                "Дегазация БР",
+                "Вязкость БР"
+            ]},
+            {"correct_answer_type_10": [2, 3, 4, 1, 5]},
+            {"image": true, "image_path": "./content/empty_img.png", "image_sgn": "blablabla"}
         ],
     },
     "index_6":{
-        "subtitle": "subtitle 3333",
-        "step_of_popup": "step 2",
-        "test":[
-            {"type": 3},
-            {"image": true, "image_path": "./content/test_image.png"},
-            {"answers": [
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores consequatur temporibus pariatur voluptatem eius ea asperiores?",
-                "First Answer",
-                "Second Answer",
-                "Third Answer",
-                "Four Answer"
-            ]}
-        ],
+        "subtitle": "Сопоставьте изображение прибора с его названием.",
+        "step_of_popup": "Сопоставьте изображение прибора с его названием.",
+        "test": [{
+            "type": 4
+        }, {
+            "image": "['./content/15111.png', './content/15211.png', './content/15311.png', './content/15411.png']"
+        }, {
+            "answers": ["Ареометр", "Гидроциклонный шламоотделитель", "Газовый сепаратор", "Вискозиметр"]
+        }],
     },
     "index_7":{
         "subtitle": "subtitle 3333",

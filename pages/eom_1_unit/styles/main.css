@@ -372,9 +372,6 @@ p {
 .col_0, .col_1 {
     margin-right: -70px;
 }
-/* .content__div_center{
-    height: 100% !important;
-} */
 .left_column{
     height: inherit;
     transform: initial !important;

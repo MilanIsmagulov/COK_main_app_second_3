@@ -89,9 +89,6 @@ video{
     display: block;
     height: initial !important;
     width: 350px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis !important;
     align-items: center !important;
     justify-content: flex-start !important;
 }
@@ -1026,7 +1023,7 @@ line{
 .targetField, .definition{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-right: 15px;
     font-size: clamp(15px, 1.5vw, 25px);
     width: clamp(150px, 20vw, 450px);
@@ -1163,9 +1160,6 @@ line{
     display: block;
     height: initial !important;
     width: 350px;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis !important; 
     align-items: center !important;
     justify-content: flex-start !important;
 }
@@ -1198,9 +1192,6 @@ line{
     display: block;
     height: initial !important;
     width: 350px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis !important;
     align-items: center !important;
     justify-content: flex-start !important;
 }
