@@ -402,7 +402,7 @@ video{
     min-width: 200px;
 }
 .description_w_input_2 {
-    width: 65%;
+    width: 100%;
     margin-left: 25px;
 }
 .description_w_input_2 p{
@@ -950,7 +950,7 @@ line{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 60% !important;
+    width: 100% !important;
 }
 .test_wrapper_type_10{
     display: flex;
@@ -1026,7 +1026,7 @@ line{
     justify-content: left;
     margin-right: 15px;
     font-size: clamp(15px, 1.5vw, 25px);
-    width: clamp(150px, 20vw, 450px);
+    width: clamp(150px, 30vw, 550px);
     height: 100px;
     margin-left: 15px;
 }
@@ -1393,6 +1393,9 @@ line{
     }
 }
 @media (max-width: 650px) {
+    .targetField, .definition{
+        height: 150px;
+    }
     #result_container_3 {
         min-height: 135px;
     }

@@ -1,1 +1,30 @@
 /* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+
+table.iksweb th {
+	background: #44546a; 
+    padding: 10px;
+	color: #fff; 
+	font-weight: normal;
+    font-weight: 700;
+}
+table.iksweb{
+    border-collapse:collapse;
+}
+table.iksweb td{
+    padding: 10px;
+    border-bottom: 1px solid #44546a;
+}
+table.iksweb:last-child{
+    border-bottom: 2px solid #44546a;
+}
+table.iksweb td:first-child{
+    width: 30vw;
+}
+
+.iksweb select{
+    max-width: 250px;
+}
+
+.iksweb td:first-child{
+    max-width: 500px;
+}
