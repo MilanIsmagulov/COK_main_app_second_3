@@ -559,8 +559,8 @@ const data = {
         ],
     },
     "index_16":{
-        "subtitle": "Тут типа результаты",
-        "step_of_popup": "Тут типа результаты",
+        "subtitle": "Результаты",
+        "step_of_popup": "Результаты",
         "result":[]
     },
 }
