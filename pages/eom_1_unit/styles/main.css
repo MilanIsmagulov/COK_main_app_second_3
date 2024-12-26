@@ -450,6 +450,10 @@ p {
 .big_left_side {
     grid-template-columns: 2fr 4fr 0.5fr !important;
 }
+.right_img{
+    clear: right !important;
+    float: right !important;
+}
 .popup {
     z-index: 1000;
     position: fixed;

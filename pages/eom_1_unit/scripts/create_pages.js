@@ -46,6 +46,12 @@ function createTextWithImage(paragraph) {
         if (item.image) {
             const imgContainer = document.createElement('div');
             imgContainer.className = 'img_with_sgn';
+            if(!item.left_img){
+                imgContainer.classList.add('right_img');
+            }
+            if(item.id){
+                imgContainer.classList.add(`${item.id}`);
+            }
             let imgElement;
             if (item.image_path.includes(".jpg") || item.image_path.includes(".png")) {
                 imgElement = document.createElement('img');

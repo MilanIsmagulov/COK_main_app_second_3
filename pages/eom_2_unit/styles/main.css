@@ -108,6 +108,8 @@ line{
 .plane_text{
     display: flex;
     flex-direction: column;
+    clear: left;
+    clear: right;
 }
 .big_rectangle{
     box-shadow: var(--main-box-shadow);

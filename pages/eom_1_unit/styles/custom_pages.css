@@ -52,17 +52,24 @@
     background-color: #44546a;
     color: #fff;
 }
-
+.id_11961504{
+    max-width: 500px;
+}
+.id_11961504 img{
+    width: 100%;
+}
 .five_nine_blue_list_text_content p{
-    width: 80%;
+    width: 75%;
     margin-left:15px !important;
 }
 .one_eleven_three_img{
     max-width: 540px;
 }
-.five_nine_blue_list_text_content img{
+.five_nine_blue_list_text_content img, .five_nine_blue_list_text_content div:has(span){
     margin: 0 auto;
+    width: auto;
     margin-left: 15px;
+    max-width: 340px;
 }
 .one_ten_one_img{
     margin-top: 15px;
