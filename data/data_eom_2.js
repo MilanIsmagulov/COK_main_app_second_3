@@ -531,7 +531,7 @@ const data = {
                         <td>{=4} </td>
                     </tr>
                     <tr>
-                        <td style='font-weight: 700; margin-right: 50px;'>Смазывающие добавки</td>
+                        <td style='font-weight: 700; margin-right: 50px;'>Пеногасители</td>
                         <td>{=5} </td>
                     </tr>
                 </tbody>
